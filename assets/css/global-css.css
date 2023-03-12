@@ -1,0 +1,164 @@
+@import url(./reset.css);
+
+section {
+    padding: 30px 0 0;
+    background-color: #eee;
+}
+
+.navbar-brand img {
+    width: 150px;
+    border-radius: 20px;
+}
+
+.navbar {
+    background-color: #00A19C;
+    position: fixed;
+}
+.navbar li a {
+    color: white;
+}
+.imagem-fundo {
+    background-image: url(../imagem/poltrona2.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.texto {
+    margin: 10px 10px;
+    text-align: justify;
+    width: 100%;
+    max-height: 100vh;
+}
+
+.logo-imagem {
+    width: 400px;
+}
+
+.logo-imagem img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+    .logo-imagem {
+        display: none;
+    }
+}
+
+.cards {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 594px) {
+    .cards {
+        display: block;
+    }
+
+    .card {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+}
+
+.titulos {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.informacoes span {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-body {
+    background-color: #e7920036;
+    text-align: justify;
+}
+
+.card-infra {
+    display: flex;
+}
+
+@media only screen and (max-width: 594px) {
+    .card-infra {
+        display: block;
+    }
+
+    .card-imagens img {
+        height: 400px;
+    }
+
+    .card-imagens {
+        text-align: center;
+    }
+}
+
+.agenda i {
+    font-size: 50px;
+}
+
+.agenda {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.agenda p {
+    margin-left: 10px;
+}
+
+.agendamento {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 594px) {
+    .agendamento {
+        display: block;
+    }
+
+   .agenda {
+    display: block;
+   }
+}
+
+.contatos {
+    background: #00a19cad;
+    color: white;
+}
+
+.contato i {
+    font-size: 20px;
+}
+
+.contato {
+    display: flex;
+}
+
+.contato p {
+    margin-left: 10px;
+}
+
+.contato a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background: #00A19C;
+}
+
+.copy {
+    padding: 10px 0px 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
